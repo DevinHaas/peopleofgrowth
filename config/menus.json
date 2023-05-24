@@ -1,0 +1,76 @@
+{
+  "mainMenu": [
+    {
+      "name": "Home",
+      "link": "#",
+      "submenu": [
+        {
+          "name": "Home 01",
+          "link": "/"
+        },
+        {
+          "name": "Home 02",
+          "link": "/home-02"
+        },
+        {
+          "name": "Home 03",
+          "link": "/home-03"
+        }
+      ]
+    },
+    {
+      "name": "About",
+      "link": "/about"
+    },
+    {
+      "name": "Blog",
+      "link": "/blog"
+    },
+    {
+      "name": "Archive",
+      "link": "/blog/archive"
+    },
+    {
+      "name": "Pages",
+      "link": "#",
+      "submenu": [
+        {
+          "name": "Author",
+          "link": "/author"
+        },
+        {
+          "name": "Author Single",
+          "link": "/author/chris-impey"
+        },
+        {
+          "name": "Elements",
+          "link": "/blog/elements"
+        },
+        {
+          "name": "Tags",
+          "link": "/tags"
+        },
+        {
+          "name": "Categories",
+          "link": "/categories"
+        },
+        {
+          "name": "Tag Single",
+          "link": "/tags/machine"
+        },
+        {
+          "name": "Category Single",
+          "link": "/categories/ai"
+        },
+        {
+          "name": "Privacy",
+          "link": "/privacy"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "link": "/contact"
+    }
+  ]
+}
