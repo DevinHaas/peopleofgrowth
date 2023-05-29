@@ -86,8 +86,8 @@ export default function Header() {
                 >
                   <Image
                     className="img-fluid"
-                    width={110}
-                    height={35}
+                    width={200}
+                    height={50}
                     src={
                       mounted && (theme === "dark" || resolvedTheme === "dark")
                         ? siteConfig.logo_light
