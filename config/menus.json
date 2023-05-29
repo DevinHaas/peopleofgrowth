@@ -2,7 +2,7 @@
   "mainMenu": [
     {
       "name": "Home",
-      "link": "#"
+      "link": "/"
     },
     {
       "name": "About",
@@ -17,42 +17,8 @@
       "link": "/blog/timeline"
     },
     {
-      "name": "Pages",
-      "link": "#",
-      "submenu": [
-        {
-          "name": "Author",
-          "link": "/author"
-        },
-        {
-          "name": "Author Single",
-          "link": "/author/chris-impey"
-        },
-        {
-          "name": "Elements",
-          "link": "/blog/elements"
-        },
-        {
-          "name": "Tags",
-          "link": "/tags"
-        },
-        {
-          "name": "Categories",
-          "link": "/categories"
-        },
-        {
-          "name": "Tag Single",
-          "link": "/tags/machine"
-        },
-        {
-          "name": "Category Single",
-          "link": "/categories/ai"
-        },
-        {
-          "name": "Privacy",
-          "link": "/privacy"
-        }
-      ]
+      "name": "Tags",
+      "link": "/tags"
     },
     {
       "name": "Contact",
