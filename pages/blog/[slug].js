@@ -40,34 +40,6 @@ export default function PostPage({
 
                 <ul className="card-meta list-inline mb-2">
                   <li className="list-inline-item mt-2">
-                    <Link
-                      href={`/author/${author
-                        .replace(/ /g, "-")
-                        .toLowerCase()}`}
-                      className="card-meta-author"
-                    >
-                      {authors.map((authorPage, i) =>
-                        author.replace(/ /g, "-").toLowerCase() ===
-                        authorPage.authorSlug ? (
-                          <span key={i}>
-                            <Image
-                              src={authorPage.authorFrontMatter.image}
-                              alt={author}
-                              width="26"
-                              height="26"
-                            />
-                          </span>
-                        ) : (
-                          ""
-                        )
-                      )}
-                      <i className="d-inline-block ms-2 ps-1 fst-normal">
-                        by <span>{author}</span>
-                      </i>
-                    </Link>
-                  </li>
-                  <li className="list-inline-item mt-2">—</li>
-                  <li className="list-inline-item mt-2">
                     <i className="me-2">
                       <IconClock size={18} />
                     </i>
@@ -176,77 +148,6 @@ export default function PostPage({
                   </li>
                 ))}
               </ul>
-            </div>
-          </div>
-
-          <div className="single-post-author">
-            <div className="row justify-content-center">
-              <div className="col-lg-10">
-                <div className="d-block d-md-flex">
-                  <Link
-                    href={`/author/${author.replace(/ /g, "-").toLowerCase()}`}
-                  >
-                    {authors.map((authorPage, i) =>
-                      author.replace(/ /g, "-").toLowerCase() ===
-                      authorPage.authorSlug ? (
-                        <span key={i}>
-                          <Image
-                            src={authorPage.authorFrontMatter.image}
-                            alt={author}
-                            width="155"
-                            height="155"
-                            className="rounded mr-4 img-fluid"
-                            placeholder="blur"
-                            blurDataURL={authorPage.authorFrontMatter.image}
-                          />
-                        </span>
-                      ) : (
-                        ""
-                      )
-                    )}
-                  </Link>
-                  <div className="ms-0 ms-md-4 ps-0 ps-md-3 mt-4 mt-md-0">
-                    <h3 className="h4 mb-3">
-                      <Link
-                        href={`/author/${author
-                          .replace(/ /g, "-")
-                          .toLowerCase()}`}
-                        className="text-dark"
-                      >
-                        {author}
-                      </Link>
-                    </h3>
-                    {authors.map((authorPage, i) =>
-                      author.replace(/ /g, "-").toLowerCase() ===
-                      authorPage.authorSlug ? (
-                        <div
-                          key={i}
-                          dangerouslySetInnerHTML={{
-                            __html: marked.parse(
-                              truncateString(authorPage.authorContent, 150)
-                            ),
-                          }}
-                        ></div>
-                      ) : (
-                        ""
-                      )
-                    )}
-                    <div className="content">
-                      <Link
-                        href={`/author/${author
-                          .replace(/ /g, "-")
-                          .toLowerCase()}`}
-                        className="text-dark"
-                      >
-                        See all posts by this author{" "}
-                        <i>
-                          <IconArrowUpRight size={20} />
-                        </i>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
