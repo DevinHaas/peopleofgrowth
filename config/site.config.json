@@ -1,17 +1,17 @@
 {
   "metaData": {
-    "title" : "Qurno | Minimal NextJS Blog Template",
-    "description" : "Qurno - a minimal nextjs blog template",
-    "author" : "PlatolTheme",
+    "title" : "Peopleofgrowth | Empower Growth | Personal growth",
+    "description" : "Short summaries of the best books in the improvement world packed in short posts. Join the Peopleofgrowth ",
+    "author" : "Devin Hasler",
     "keyword" : "qurno, minimal, react, nextjs, blog, template",
     "ogImage" : "https://qurno-nextjs.vercel.app/images/ogimage.jpg"
   },
   "baseURL" : "https://qurno-nextjs.vercel.app/",
   "logo" : "/images/logo.png",
   "logo_light" : "/images/logo-light.png",
-  "logoText" : "Qurno",
+  "logoText" : "Peopleofgrowth",
   "favicon" : "/images/favicon.png",
   "postPerPage" : 6,
   "postColumns" : 2,
-  "copyright" : "© 2023 Qurno. All rights reserved."
+  "copyright" : "© 2023 Peopleofgrowth. All rights reserved."
 }

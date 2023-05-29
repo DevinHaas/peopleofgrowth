@@ -1,7 +1,7 @@
-import Layout from "@/components/Layout";
+ import Layout from "@/components/Layout";
 import PageHeaderBlock from "@/components/PageHeader";
 import { getPosts } from "@/libs/getPosts";
-import { IconTags } from "@tabler/icons";
+import { IconTags } from "@tabler/icons-react";
 import Link from "next/link";
 
 export default function Tags({ posts }) {
