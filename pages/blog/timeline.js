@@ -5,7 +5,7 @@ import { getSinglePage } from "@/libs/getSinglePage";
 import { IconArchive } from "@tabler/icons-react";
 import Link from "next/link";
 
-export default function Archive({ posts, archive: { frontMatter } }) {
+export default function Timeline({ posts, archive: { frontMatter } }) {
   // formatDateByYear
   let formatDateByYear = (a) => {
     const longEnUSFormatter = new Intl.DateTimeFormat("en-US", {
@@ -75,7 +75,7 @@ export async function getStaticProps() {
   return {
     props: {
       posts: getPosts(),
-      archive: getSinglePage("content/archive.md"),
+      archive: getSinglePage("content/timeline.md"),
     },
   };
 }

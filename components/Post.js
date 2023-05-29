@@ -63,32 +63,6 @@ export default function Post({
       <div className="card-footer border-top-0 bg-transparent p-0">
         <ul className="card-meta list-inline">
           <li className="list-inline-item mt-2">
-            <Link
-              href={`/author/${author.replace(/ /g, "-").toLowerCase()}`}
-              className="card-meta-author"
-              title={`Read all posts by - ${author}`}
-            >
-              {authors.map(
-                (authorPage, i) =>
-                  author.replace(/ /g, "-").toLowerCase() ===
-                    authorPage.authorSlug && (
-                    <span key={i}>
-                      <Image
-                        src={authorPage.authorFrontMatter.image}
-                        alt={author}
-                        width="26"
-                        height="26"
-                      />
-                    </span>
-                  )
-              )}
-              <i className="d-inline-block ms-2 ps-1 fst-normal">
-                by <span>{author.split(" ")[0]}</span>
-              </i>
-            </Link>
-          </li>
-          <li className="list-inline-item mt-2">•</li>
-          <li className="list-inline-item mt-2">
             <ul className="card-meta-tag list-inline">
               {tags.map((t, i) => (
                 <li key={i} className="list-inline-item small">

@@ -2,21 +2,7 @@
   "mainMenu": [
     {
       "name": "Home",
-      "link": "#",
-      "submenu": [
-        {
-          "name": "Home 01",
-          "link": "/"
-        },
-        {
-          "name": "Home 02",
-          "link": "/home-02"
-        },
-        {
-          "name": "Home 03",
-          "link": "/home-03"
-        }
-      ]
+      "link": "#"
     },
     {
       "name": "About",
@@ -27,8 +13,8 @@
       "link": "/blog"
     },
     {
-      "name": "Archive",
-      "link": "/blog/archive"
+      "name": "Timeline",
+      "link": "/blog/timeline"
     },
     {
       "name": "Pages",

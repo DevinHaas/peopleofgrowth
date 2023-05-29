@@ -4,7 +4,7 @@ description: "This a dummy meta description of about page"
 
 #intro
 intro:
-  title: "We are the Qurno, <br> Team of content writers and designers."
+  title: "Welcome to the Peopleofgrowth"
   description: "If ever a place existed where you could just go crazy creatively, it is definitely your about page. It’s your chance to show your readers who you really are. Pictures, quotes, inspirational graphics, whatever it is that drives you.. Display it here in a way that only you can.
   
   
