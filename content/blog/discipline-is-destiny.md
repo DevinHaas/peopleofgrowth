@@ -5,19 +5,14 @@ image: "/images/blog/disciplineIsDestiny.png"
 date: "2023-04-21T16:56:47+01:00"
 author: ["Ryan Holiday"]
 publisher: "Profile Books"
+link: "https://www.amazon.de/Discipline-Destiny-Self-Control-Ryan-Holiday/dp/1788166337/ref=sr_1_1?adgrpid=1202866495296556&hvadid=75179266533891&hvbmt=be&hvdev=c&hvlocphy=145978&hvnetw=s&hvqmt=e&hvtargid=kwd-75179377889956%3Aloc-175&hydadcr=22119_2301404&keywords=discipline+is+destiny&sr=8-1"
 publishDate: "2022/09/27"
-rating: 4
+rating: ⭐⭐⭐⭐
 pages: 352
-time To Read: 10
+timeToRead: 10
 categories: ["Self-Improvement"]
 tags: ["Stoic", "Mind", "Discipline"]
 ---
-
-Author: Ryan Holiday   
-Rating: ⭐⭐⭐⭐    
-Link Amazon:  [Book Discipline is Destiny](https://www.amazon.de/Discipline-Destiny-Self-Control-Ryan-Holiday/dp/1788166337/ref=sr_1_1?adgrpid=1202866495296556&hvadid=75179266533891&hvbmt=be&hvdev=c&hvlocphy=145978&hvnetw=s&hvqmt=e&hvtargid=kwd-75179377889956%3Aloc-175&hydadcr=22119_2301404&keywords=discipline+is+destiny&sr=8-1)  
-Pages: 352  
-Time To Read: 10 Days
 
 ## 🚀 The Book in 3 Sentences
 

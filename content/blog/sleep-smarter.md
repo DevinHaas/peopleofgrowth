@@ -5,18 +5,14 @@ image: "/images/blog/sleepsmarter.jpg"
 date: "2023-04-09T16:56:47+01:00"
 author: ["Shawn Stevenson"]
 publisher: "Hay House Uk"
+link: "https://www.amazon.de/Sleep-Smarter-Essential-Strategies-Success/dp/1781808368/ref=sr_1_1?adgrpid=1201766860000635&hvadid=75110546533855&hvbmt=bp&hvdev=c&hvlocphy=3300&hvnetw=s&hvqmt=p&hvtargid=kwd-75110626353407%3Aloc-175&hydadcr=4586_2209413&keywords=sleep+smarter&qid=1667034003&qu=eyJxc2MiOiIxLjczIiwicXNhIjoiMS40OSIsInFzcCI6IjEuNTYifQ%3D%3D&sr=8-1"
 publishDate: "2016/09/06"
-rating: 4
+rating: ⭐⭐⭐⭐⭐
 pages: 204
-time To Read: 3
+timeToRead: 3
 categories: ["Self-Improvement"]
 tags: ["Sleep", "Habit"]
 ---
-Author: Shawn Stevenson
-Rating: ⭐⭐⭐⭐⭐    
-Link Amazon:  [Book Sleep Better](https://www.amazon.de/Sleep-Smarter-Essential-Strategies-Success/dp/1781808368/ref=sr_1_1?adgrpid=1201766860000635&hvadid=75110546533855&hvbmt=bp&hvdev=c&hvlocphy=3300&hvnetw=s&hvqmt=p&hvtargid=kwd-75110626353407%3Aloc-175&hydadcr=4586_2209413&keywords=sleep+smarter&qid=1667034003&qu=eyJxc2MiOiIxLjczIiwicXNhIjoiMS40OSIsInFzcCI6IjEuNTYifQ%3D%3D&sr=8-1)  
-Pages: 290  
-Time To Read: 20 Days
 
 ## 🚀 The Book in 3 Sentences
 

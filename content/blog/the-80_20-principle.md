@@ -5,14 +5,14 @@ image: "/images/blog/the8020Principle/the8020Principle.jpeg"
 date: "2023-05-07T16:56:47+01:00"
 author: ["Richard Koch"]
 publisher: "Hodder And Stoughton Ltd."
+link: "https://www.amazon.de/80-20-Principle-Secret-Achieving/dp/1529370450/ref=sr_1_1?keywords=80%2F20+principle&sr=8-1"
 publishDate: "2022/01/20"
-rating: 3
+rating: ⭐⭐⭐
 pages: 336
-time To Read: 11
+timeToRead: 11
 categories: ["Self-Improvement"]
 tags: ["Routine", "Efficiency", "Productivity"]
 ---
-
 
 
 ## 🚀 The Book in 3 Sentences

@@ -5,19 +5,16 @@ image: "/images/blog/meditations.jpg"
 date: "2023-04-23T16:56:47+01:00"
 author: ["Marcus Aurelius", "Gregory Hays"]
 publisher: "Random House Publishing Group"
+link: "https://www.amazon.de/Meditations-Translation-Modern-Library-Classics/dp/0812968255/ref=sr_1_1?keywords=meditations+marcus+aurelius&sr=8-1"
 publishDate: "2003/05/27"
-rating: 4
+rating: ⭐⭐⭐⭐
 pages: 256
-time To Read: 5
+timeToRead: 5
 categories: ["Self-Improvement"]
 tags: ["Stoic", "Mind", "Discipline"]
 ---
 
-Author: Marcus Aurelius, Gregory Hays
-Rating: ⭐⭐⭐⭐     
-Link Amazon:  [Book Sleep Better](https://www.amazon.de/Meditations-Translation-Modern-Library-Classics/dp/0812968255/ref=sr_1_1?keywords=meditations+marcus+aurelius&sr=8-1)  
-Pages: 256  
-Time To Read: 5 Days
+
 
 ## 🚀 The Book in 3 Sentences
 

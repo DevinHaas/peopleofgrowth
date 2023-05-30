@@ -22,7 +22,7 @@ export default function Post({
     >
       <div className="card-body">
         <Link href={`/blog/${slug}`} className="d-block" title={title}>
-          <div className="post-image position-relative">
+          <div className="post-image position-relative w-50">
             <Image
               className="rounded img-fluid"
               src={image}

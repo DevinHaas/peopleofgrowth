@@ -5,20 +5,14 @@ image: "/images/blog/miracleMorning.jpg"
 date: "2023-03-14T16:56:47+01:00"
 author: ["Hal Elrod"]
 publisher: "John Murray UK"
+link: "https://www.amazon.com/-/de/dp/B06X3WY4X5/ref=sr_1_2?keywords=the+miracle+morning&qid=1678203066&s=books&sprefix=The+mirica%2Cstripbooks-intl-ship%2C153&sr=1-2"
 publishDate: "2017/07/12"
-rating: 4
+rating: ⭐⭐⭐⭐
 pages: 204
-time To Read: 3
+timeToRead: 3
 categories: ["Self-Improvement"]
 tags: ["Mind", "Morning"]
 ---
-
-Author: Hal Elrod  
-Rating: ⭐⭐⭐⭐  
-Link Amazon:  [Book Miracle Morning](https://www.amazon.com/-/de/dp/B06X3WY4X5/ref=sr_1_2?keywords=the+miracle+morning&qid=1678203066&s=books&sprefix=The+mirica%2Cstripbooks-intl-ship%2C153&sr=1-2)  
-Pages: 204  
-Time To Read: 3 Days
-
 
 
 ## 🚀 The Book in 3 Sentences
