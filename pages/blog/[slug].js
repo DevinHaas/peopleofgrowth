@@ -58,7 +58,7 @@ export default function PostPage({
             <div className="col-lg-12">
               <div className="mb-5 text-center post-deatils-image">
                 <Image
-                  className="rounded img-fluid"
+                  className="rounded w-50 h-auto"
                   src={image}
                   alt={title}
                   width={`1120`}
