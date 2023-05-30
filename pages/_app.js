@@ -3,6 +3,7 @@ import "@/styles/bootstrap.scss";
 import "@/styles/globals.scss";
 import { ThemeProvider } from "next-themes";
 import { useEffect, useState } from "react";
+import {Analytics} from "@vercel/analytics/react";
 
 export default function QurnoApp({ Component, pageProps }) {
   const [searchOpen, setSearchOpen] = useState("");
@@ -19,6 +20,7 @@ export default function QurnoApp({ Component, pageProps }) {
     >
       <ThemeProvider defaultTheme="light" attribute="class">
         <Component {...pageProps} />
+        <Analytics></Analytics>
       </ThemeProvider>
     </AppContext.Provider>
   );
