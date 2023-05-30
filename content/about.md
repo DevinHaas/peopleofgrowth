@@ -15,9 +15,9 @@ intro:
 
   # about images
   images:
-  - src: "/images/about/library.jpg"
-    width: "620px"
-    height: "346px"
+  - src: "/images/about/library2.jpg"
+    width: "500px"
+    height: "300px"
     grid_class: "col-lg-6"
 
   - src: "/images/about/pages.jpg"

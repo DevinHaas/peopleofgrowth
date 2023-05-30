@@ -24,12 +24,11 @@ export default function Home({ authors, posts, banner }) {
             </div>
           </div>
           <div className="row gy-5 gx-4 g-xl-5">
-            {posts.map((post, i) => (
+            {posts.slice(0, 3).map((post, i) => (
                 <div key={i} className="col-lg-4 col-md-6">
                   <Post post={post} authors={authors} postColumns={3} />
                 </div>
             ))}
-
             <div className="col-12 text-center">
               <Link
                   href={`/blog`}
