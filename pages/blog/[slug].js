@@ -19,12 +19,18 @@ import {marked} from "marked";
 import Image from "next/image";
 import Link from "next/link";
 import path from "path";
+import React from "react";
+import {useTheme} from "next-themes";
 
 export default function PostPage({
   slug,
   content,
   frontMatter: { title, date, image, description, tags }
-}) {
+})
+{
+
+  const { theme, setTheme, resolvedTheme } = useTheme();
+
   let pageUrl = `${siteConfig.baseURL.replace(/\/$|$/, "/")}blog/${slug}`;
   return (
     <Layout metaTitle={title} metaDescription={description} ogImage={image}>
@@ -132,6 +138,25 @@ export default function PostPage({
                 className="content"
                 dangerouslySetInnerHTML={{ __html: marked.parse(content) }}
               ></div>
+              <div className="text-center">
+                <Image
+                    className="rounded w-25 h-auto"
+                    src={
+                      (theme === "dark" || resolvedTheme === "dark")
+                          ? "/images/blog/signatureShort_light.png"
+                          : "/images/blog/signatureShort.png"
+                    }
+                    alt={"Digital Signature"}
+                    width={`200`}
+                    height={`100`}
+                    placeholder="blur"
+                    blurDataURL={
+                      (theme === "dark" || resolvedTheme === "dark")
+                          ? "/images/blog/signatureShort_light.png"
+                          : "/images/blog/signatureShort.png"
+                    }
+                />
+              </div>
               <ul className="post-meta-tag list-unstyled list-inline mt-5">
                 <li className="list-inline-item">Tags: </li>
                 {tags.map((t, i) => (

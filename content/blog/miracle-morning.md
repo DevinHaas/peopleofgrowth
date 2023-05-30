@@ -2,8 +2,13 @@
 title: "Miracle Morning"
 description: "A Book that will change your morning and with that your life"
 image: "/images/blog/miracleMorning.jpg"
-date: "2023-03-14T16:56:47+06:00"
-author: "Devin Hasler"
+date: "2023-03-14T16:56:47+01:00"
+author: "Hal Elrod"
+publisher: "John Murray UK"
+publishDate: "2017/07/12"
+rating: 4
+pages: 204
+time To Read: 3
 categories: ["Self-Improvement"]
 tags: ["Mind", "Morning"]
 ---
@@ -79,8 +84,3 @@ I have to say that I meditated or did the Wim-Hof Method for a long time so t V 
 
 With regards  
 Devin Hasler
-<div style="text-align: center;">
-
-![Digital Signature](/images/blog/signatureShort.png)
-
-</div>
