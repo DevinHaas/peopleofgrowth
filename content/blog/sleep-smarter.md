@@ -86,7 +86,11 @@ During your sleep, it is important that you do not compromise the body’s abili
 
 I hope you are now equipped with tips and tools to improve your sleep, your health and with that your ability to achieve great things. Leave a comment about how you like this book and I hope I will see you reading the next Blog.
 
-With regards
+With regards  
 Devin Hasler
+<div style="text-align: center;">
 
+![Digital Signature](/images/blog/signatureShort.png)
+
+</div>
 
