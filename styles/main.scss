@@ -54,7 +54,7 @@
       }
       img {
         transition: 0.3s;
-        object-fit: scale-down;
+        object-fit: contain;
       }
       &::before {
         content: "";

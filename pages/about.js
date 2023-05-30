@@ -56,7 +56,7 @@ export default function About({ authors, posts, about: { frontMatter } }) {
           </div>
 
           <div className="row justify-content-center">
-            <div className="col-lg-10 text-center">
+            <div className="col-lg-10">
               <div
                 className="content"
                 dangerouslySetInnerHTML={{

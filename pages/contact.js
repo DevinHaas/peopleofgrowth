@@ -20,12 +20,6 @@ export default function Contact({ contact: { frontMatter } }) {
             <div className="col-lg-5 col-md-10 ms-lg-auto me-lg-0 me-auto">
               <div className="mb-5">
                 <h2 className="h3 mb-3">{frontMatter.contact.title}</h2>
-                <p
-                  className="mb-0"
-                  dangerouslySetInnerHTML={{
-                    __html: marked.parseInline(frontMatter.contact.content),
-                  }}
-                ></p>
               </div>
               <div>
                 <h2

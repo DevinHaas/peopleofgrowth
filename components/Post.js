@@ -22,13 +22,13 @@ export default function Post({
     >
       <div className="card-body">
         <Link href={`/blog/${slug}`} className="d-block" title={title}>
-          <div className="post-image position-relative w-50">
+          <div className="post-image position-relative w-75">
             <Image
               className="rounded img-fluid"
               src={image}
               alt={title}
-              width={`650`}
-              height={`335`}
+              width={`750`}
+              height={`350`}
               placeholder="blur"
               blurDataURL={image}
             />
