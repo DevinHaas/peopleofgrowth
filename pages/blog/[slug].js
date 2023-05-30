@@ -1,12 +1,10 @@
 import Layout from "@/components/Layout";
 import useScripts from "@/components/Scripts";
 import siteConfig from "@/config/site.config.json";
-import { getAuthors } from "@/libs/getAuthors";
-import { formatDate } from "@/utils/formatDate";
-import { readingTime } from "@/utils/readingTime";
-import { truncateString } from "@/utils/truncateString";
+import {getAuthors} from "@/libs/getAuthors";
+import {formatDate} from "@/utils/formatDate";
+import {readingTime} from "@/utils/readingTime";
 import {
-  IconArrowUpRight,
   IconBrandFacebook,
   IconBrandLinkedin,
   IconBrandPinterest,
@@ -17,7 +15,7 @@ import {
 } from "@tabler/icons-react";
 import fs from "fs";
 import matter from "gray-matter";
-import { marked } from "marked";
+import {marked} from "marked";
 import Image from "next/image";
 import Link from "next/link";
 import path from "path";
@@ -25,8 +23,7 @@ import path from "path";
 export default function PostPage({
   slug,
   content,
-  frontMatter: { title, author, date, image, description, tags },
-  authors,
+  frontMatter: { title, date, image, description, tags }
 }) {
   let pageUrl = `${siteConfig.baseURL.replace(/\/$|$/, "/")}blog/${slug}`;
   return (
