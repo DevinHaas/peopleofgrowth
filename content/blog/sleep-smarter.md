@@ -3,7 +3,7 @@ title: "Sleep Smarter"
 description: "A Book that will change your sleep and your ability to achieve what you want"
 image: "/images/blog/sleepsmarter.jpg"
 date: "2023-04-09T16:56:47+01:00"
-author: "Shawn Stevenson"
+author: ["Shawn Stevenson"]
 publisher: "Hay House Uk"
 publishDate: "2016/09/06"
 rating: 4

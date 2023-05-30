@@ -3,7 +3,7 @@ title: "Discipline is Destiny"
 description: "A book that explores the concept of discipline and how it can help us achieve success in all areas"
 image: "/images/blog/disciplineIsDestiny.png"
 date: "2023-04-21T16:56:47+01:00"
-author: "Ryan Holiday"
+author: ["Ryan Holiday"]
 publisher: "Profile Books"
 publishDate: "2022/09/27"
 rating: 4

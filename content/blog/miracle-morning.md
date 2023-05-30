@@ -3,7 +3,7 @@ title: "Miracle Morning"
 description: "A Book that will change your morning and with that your life"
 image: "/images/blog/miracleMorning.jpg"
 date: "2023-03-14T16:56:47+01:00"
-author: "Hal Elrod"
+author: ["Hal Elrod"]
 publisher: "John Murray UK"
 publishDate: "2017/07/12"
 rating: 4
