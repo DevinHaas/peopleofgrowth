@@ -1,0 +1,81 @@
+import {IconBook, IconBrain, IconClockHour5} from "@tabler/icons-react";
+import {useEffect, useRef} from "react";
+
+export default function Stats() {
+    function animateValue(obj, start, end, duration) {
+        let startTimestamp = null;
+        const step = (timestamp) => {
+            if (!startTimestamp) startTimestamp = timestamp;
+            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+            obj.innerHTML = Math.floor(progress * (end - start) + start);
+            if (progress < 1) {
+                window.requestAnimationFrame(step);
+            }
+        };
+        window.requestAnimationFrame(step);
+    }
+
+    const pagesRef = useRef(null);
+    const yearRef = useRef(null);
+    const daysRef = useRef(null);
+
+
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting) {
+                animateValue(pagesRef.current, 0, 1718, 2000);
+                animateValue(yearRef.current, 0, 2320, 1500);
+                animateValue(daysRef.current, 0, 77, 2300);
+                observer.unobserve(pagesRef.current);
+            }
+        });
+
+        if (pagesRef.current) {
+            observer.observe(pagesRef.current);
+
+        }
+
+        return () => {
+            if (pagesRef.current) {
+                observer.unobserve(pagesRef.current);
+            }
+        };
+    }, []);
+
+    return (
+        <div className="row">
+            <h2 className="section-title text-center mb-4">
+                <span className="p-0">Stats</span>
+            </h2>
+            <div className="col-12 col-md-4">
+                <div className="card quote-card h-100 mt-lg-5">
+
+                    <div className="quote-text d-flex flex-column align-items-center">
+                        <IconBook size={100}></IconBook>
+                        <h1 id="pages" ref={pagesRef}></h1>
+                        <p>Pages read</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col-12 col-md-4">
+                <div className="card quote-card h-100 mt-lg-5">
+                    <div className="quote-text d-flex flex-column align-items-center">
+                        <IconBrain size={100}></IconBrain>
+                        <h1 id="years" ref={yearRef}></h1>
+                        <p>Years of knowledge learned</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col-12 col-md-4">
+                <div className="card quote-card h-100 mt-lg-5">
+                    <div className="quote-text d-flex flex-column align-items-center">
+                        <IconClockHour5 size={100}></IconClockHour5>
+                        <h1 id="days" ref={daysRef}></h1>
+                        <p>Days spend reading</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    )
+}

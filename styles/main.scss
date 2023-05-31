@@ -36,6 +36,7 @@
   &.quote-card {
     padding: 0 30px;
     margin: 5em 2em 0 2em;
+    background-color: $white;
     @include mobile {
       padding: 0 10px;
     }
@@ -56,6 +57,23 @@
         bottom: -10px;
         left: -10px;
         width: calc(100% + 20px);
+      }
+    }
+  }
+}
+
+.dark {
+  .card.quote-card {
+    .quote-text::before {
+      background-color: $darken;
+    }
+    background-color: $darken;
+  }
+
+  .card-body {
+    a:hover {
+      .post-title {
+        color: $color-primary !important;
       }
     }
   }

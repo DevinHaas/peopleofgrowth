@@ -1,7 +1,6 @@
 import BannerBlock from "@/components/Banner";
 import Layout from "@/components/Layout";
 import Post from "@/components/Post";
-import PostHorizontal from "@/components/PostHorizontal";
 import siteConfig from "@/config/site.config.json";
 import {getAuthors} from "@/libs/getAuthors";
 import {getPosts} from "@/libs/getPosts";
@@ -10,6 +9,7 @@ import {IconNewSection} from "@tabler/icons-react";
 import Link from "next/link";
 import Quote from "@/components/Quote";
 import ComingSoon from "@/components/ComingSoon";
+import Stats from "@/components/Stats";
 
 export default function Home({authors, posts, banner, quotes, books}) {
   const postColumns = siteConfig.postColumns;
@@ -46,8 +46,8 @@ export default function Home({authors, posts, banner, quotes, books}) {
           </div>
           <Quote quote={quotes}>
           </Quote>
-
           <ComingSoon book={books}></ComingSoon>
+          <Stats></Stats>
         </div>
       </Layout>
   );
