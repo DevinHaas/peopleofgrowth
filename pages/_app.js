@@ -5,7 +5,7 @@ import { ThemeProvider } from "next-themes";
 import { useEffect, useState } from "react";
 import {Analytics} from "@vercel/analytics/react";
 
-export default function QurnoApp({ Component, pageProps }) {
+export default function PeopleofgrowthApp({ Component, pageProps }) {
   const [searchOpen, setSearchOpen] = useState("");
 
   useEffect(() => {

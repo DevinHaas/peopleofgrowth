@@ -4,7 +4,7 @@ import { IconUserPlus } from "@tabler/icons-react";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer id="footer">
       <div className="container">
         <div className="section">
           <div className="row justify-content-center align-items-center">
