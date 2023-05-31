@@ -33,12 +33,6 @@ export default function Search() {
     ) {
       return searchResult;
     } else if (
-      searchResult.frontMatter.author
-        .toLowerCase()
-        .includes(searchTerm.toLowerCase())
-    ) {
-      return searchResult;
-    } else if (
       searchResult.frontMatter.tags[0]
         .toLowerCase()
         .includes(searchTerm.toLowerCase())
