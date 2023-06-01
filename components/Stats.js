@@ -48,9 +48,8 @@ export default function Stats() {
                 <span className="p-0">Stats</span>
             </h2>
             <div className="mt-0 col-12 col-md-4">
-                <div className=" card quote-card  py-0 mt-lg-5">
-
-                    <div className="quote-text d-flex flex-column align-items-center">
+                <div className="card quote-card transparent  py-0 mt-lg-5">
+                    <div className=" quote-text d-flex flex-column align-items-center">
                         <IconBook size={100}></IconBook>
                         <h1 id="pages" ref={pagesRef}></h1>
                         <p>Pages read</p>
@@ -66,7 +65,7 @@ export default function Stats() {
                     </div>
                 </div>
             </div>
-            <div className="mt-0 col-12 col-md-4">
+            <div className="mt-0 col-12 col-md-4 mb-sm-2">
                 <div className="card quote-card mt-lg-0 py-2 mt-lg-5">
                     <div className="quote-text d-flex flex-column align-items-center">
                         <IconClockHour5 size={100}></IconClockHour5>

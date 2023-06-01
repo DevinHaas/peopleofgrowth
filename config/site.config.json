@@ -4,9 +4,9 @@
     "description" : "Short summaries of the best books in the improvement world packed in short posts. Join the Peopleofgrowth ",
     "author" : "Devin Hasler",
     "keyword" : "Self-Improvement, Personal growth, personal development, stoicism, fulfillment",
-    "ogImage" : "https://qurno-nextjs.vercel.app/images/library.jpg"
+    "ogImage" : "https://peopleofgrowth-git-dev-devinhaas.vercel.app/images/library.jpg"
   },
-  "baseURL" : "https://qurno-nextjs.vercel.app/",
+  "baseURL" : "https://peopleofgrowth.com/",
   "logo" : "/images/logo.svg",
   "logo_light" : "/images/logo-light.svg",
   "logoText" : "Peopleofgrowth",

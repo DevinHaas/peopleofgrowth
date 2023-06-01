@@ -36,7 +36,7 @@ export default function Post({
         </Link>
 
         <div className="mx-4">
-          <ul className="card-meta text-center list-inline mb-3">
+          <ul className="card-meta list-inline mb-3">
             <li className="list-inline-item mt-2">
               <i className="me-2">
                 <IconCalendarEvent size={18} />

@@ -36,7 +36,6 @@
   &.quote-card {
     padding: 0 30px;
     margin: 2em 2em 0 2em;
-    background-color: $white;
     @include mobile {
       padding: 0 10px;
     }
@@ -60,19 +59,49 @@
         width: calc(100% + 20px);
       }
     }
+    .quote-image {
+      z-index: 1;
+      margin-bottom: 50px;
+      transition: 0.3s;
+      @include mobile {
+        margin-bottom: 30px;
+      }
+
+      img {
+        transition: 0.3s;
+        object-fit: contain;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: -30px;
+        width: calc(100% + 60px);
+        height: 100%;
+        background-color: $dark;
+        z-index: -1;
+        pointer-events: none;
+        border-radius: 4px;
+        transition: 0.3s;
+        @include mobile {
+          bottom: -10px;
+          left: -10px;
+          width: calc(100% + 20px);
+        }
+      }
+    }
+
   }
 }
 
 .dark {
   .card.quote-card {
-    .quote-text::before {
+    background-color: $darken;
+    .quote-image::before {
       background-color: $darken;
     }
   }
-  .card.stats-card{
-    background-color: $darken;
-  }
-  background-color: $darken;
 
   .card-body {
     a:hover {
@@ -179,7 +208,7 @@
 .card.post-card-col-4 {
   padding: 0 2rem 0 2rem;
   @include mobile {
-    padding: 0 2rem 0 2rem;
+    padding: 0 1rem 0 1rem;
   }
 
   .post-image {
