@@ -55,40 +55,41 @@ And then let your miracle morning begin.
 ### 1. S for Silence
 
 The benefits of doing mental exercises like Meditation, Breathing, or Praying have long been proved
-by science and so the miracle morning must contain some sort of mental workout. After the Silence
-Phase, you will feel that the stress is relieved, and you will fall into a state of deep relaxation
-and peacefulness.
+by science, and so the miracle morning must contain some sort of mental workout.
+After the Silence Phase, you will feel that the stress is relieved, and you will fall into a state
+of deep relaxation and peacefulness.
 
 ### 2. A for Affirmations
 
-Affirmations are in the field of Self-Improvement a controversial topic. Some say it is over-hyped
+Affirmations are in the field of Self-Improvement a controversial topic. Some say it is over-hyped, 
 and some say that the benefits changed their lives. We can agree on is that Rereading or Vocalizing
-your goals for life will strengthen the bond to your goals and the commitment and motivation.
+your goals for life will strengthen the bond to your goals, commitment and motivation.
 
 ### 3. V for Visualization
 
-Visualization is something that is often linked with sports but visualization is a gamer changer if
+Visualization is something that is often linked with sports, but visualization is a gamer changer if
 used for visualizing the day. How it works is you visualize your optimal day. You imagine you
 succeed in everything you have set for the day, and you feel the emotions that would arise if you
-would succeed. How far you visualize the future is up to you but there are a lot of people who
+would succeed. How far you visualize the future is up to you, but there are a lot of people who
 visualize themselves very far in the future. A very popular example is the funeral visualization
 from the book “7 habits of highly effective people”
 
 ### 4. E for Exercise
 
-Exercise is one of the most important things in self-improvement and the benefits are widely backed
-up by science. If you exercise in the morning it has a tremendous effect on your energy levels
-during the day. Also, because of the higher blood flow in your body, you become motivated for the day,
+Exercise is one of the most important things in self-improvement, and the benefits are widely backed
+up by science. If you exercise in the morning, it has a tremendous effect on your energy levels
+during the day. Also, because of the higher blood flow in your body, you become motivated for the
+day,
 and you will not feel any tiredness in the morning. The best thing is we don’t talk about an hour of
 intense workout. We talk about some push-ups, sit-ups, or even yoga. So if you don’t already work
 out in the morning, you got to change that.
 
 ### 5. R for Reading
 
-Everyone knows the benefits of reading and everyone wishes he would read more. And that’s why it is
+Everyone knows the benefits of reading, and everyone wishes he would read more. And that’s why it is
 perfect to do the reading in the morning when your willpower is not yet depleted from the day. You
 mustn’t feel obliged to read a whole book in the morning. Instead, it is okay to just read a few
-pages or just a single chapter. And because you have done the exercise before you will not feel
+pages or just a single chapter. And because you have done the exercise before, you will not feel
 tired, and you will be able to read will full concentration.
 
 ### 6. S for Scribing
@@ -103,7 +104,7 @@ blog, the one you are reading right now.
 
 I have to say that I meditated or did the Wim-Hof Method for a long time so t V in S.A.V.E.R.S was
 not something new, but I never considered to do Exercising and Visualization. I always worked out in
-the evening and although in the morning I know only do push-ups and sit-ups and not a real workout I
+the evening, and although in the morning I only do push-ups and sit-ups and not a real workout, I
 still have the same benefits as in a normal workout. Your blood flow increases your mental clarity
 and your overall mood and awareness. The same is with Visualization. I already did that in Sports
 before a game, but I never considered using the benefit of Visualization for improving my overall
@@ -120,16 +121,16 @@ morning clearly. My energy levels during the day are higher and I can focus bett
 to do. Also, I now wake up in the morning and I don't need as much energy anymore to go out of bed
 because I have a strict routine and I know I want to finish all the elements of the S.A.V.E.R.S in
 the morning. Probably the biggest benefit is that you feel less grumpy in the morning because after
-the E (Exercise) you are wide awake, and you feel the benefits of increasing your blood flow. So I
-will definitely not stop on 30 Days and I will continue doing my Miracle Morning.
+the E (Exercise) you are widely awake, and you feel the benefits of increasing your blood flow. So I
+will definitely not stop on Day 30 and I will continue doing my Miracle Morning.
 
 **Update 60 Days**
 
-After 60 Days I changed a lot in my Miracle Morning. I started doing a 5 min Ab-Workout and every
+After 60 Days, I changed a lot in my Miracle Morning. I started doing a 5-min Ab-Workout and every
 second day I stretch for 5 minutes. Also, I restarted doing my gratitude journal where I journal
 down 5 things every day that I am grateful for. The Benefits of the Miracle Morning are still there,
 but I don't feel them as strong anymore because you get used to the benefits of the Miracle Morning.
-What I do feel however is when I don't do the Miracle Morning because the difference is profound.
+What I do feel, however, is when I don't do the Miracle Morning because the difference is profound.
 
 With regards  
 Devin Hasler
