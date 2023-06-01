@@ -324,6 +324,13 @@
   }
 }
 
+.post-details-image{
+  width: 25%;
+  @include mobile{
+    width: 50%;
+  }
+}
+
 .post-content-block {
   width: calc(83.33333334% - 174px);
   @include desktop {

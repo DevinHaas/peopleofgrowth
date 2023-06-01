@@ -70,9 +70,9 @@ export default function PostPage({
                 </div>
               </div>
               <div className="col-lg-12">
-                <div className="mb-5 text-center post-deatils-image">
+                <div className="mb-5 text-center ">
                   <Image
-                      className="rounded w-50 h-auto"
+                      className="rounded post-details-image h-auto"
                       src={image}
                       alt={title}
                       width={`1120`}

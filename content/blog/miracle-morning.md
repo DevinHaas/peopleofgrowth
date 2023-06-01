@@ -76,5 +76,14 @@ Scribing is the art of spontaneous and off-the-hook writing. It’s all from wri
 
 I have to say that I meditated or did the Wim-Hof Method for a long time so t V in S.A.V.E.R.S was not something new, but I never considered to do Exercising and Visualization. I always worked out in the evening and although in the morning I know only do push-ups and sit-ups and not a real workout I still have the same benefits as in a normal workout. Your blood flow increases your mental clarity and your overall mood and awareness. The same is with Visualization. I already did that in Sports before a game, but I never considered using the benefit of Visualization for improving my overall day. So, in conclusion, I can say that I definitely will continue to do the miracle morning and that I will do the 30 days and give you guys an update on how it went and what the difficulties were. Stay tuned.
 
+
+
+
+## ⏲ Updates
+
+**Update 30 Days**
+
+After 30 Days of doing the miracle morning consistently every day I see the benefits of the miracle morning clearly. My energy levels during the day are higher and I can focus better on tasks I have to do. Also, I now wake up in the morning and I don't need as much energy anymore to go out of bed because I have a strict routine and I know I want to finish all the elements of the S.A.V.E.R.S in the morning. Probably the biggest benefit is that you feel less grumpy in the morning because after the E (Exercise) you are wide awake and you feel the benefits of increasing your blood flow. So I will definitely not stop on 30 Days and I will continue doing my Miracle Morning.  
+
 With regards  
 Devin Hasler
