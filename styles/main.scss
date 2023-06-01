@@ -95,10 +95,6 @@
     .card-body {
       padding: 0;
 
-      @include mobile {
-        text-align: center;
-      }
-
       a:hover {
         color: inherit;
 
@@ -207,11 +203,6 @@
   .card-meta,
   .card-footer {
     zoom: 0.95;
-
-    @include mobile{
-      display: flex;
-      justify-content: center;
-    }
   }
 
 }

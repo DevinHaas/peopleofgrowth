@@ -35,46 +35,51 @@ export default function Post({
           </div>
         </Link>
 
-        <ul className="card-meta list-inline mb-3">
-          <li className="list-inline-item mt-2">
-            <i className="me-2">
-              <IconCalendarEvent size={18} />
-            </i>
-            <span>{formatDate(date)}</span>
-          </li>
-          <li className="list-inline-item mt-2">—</li>
-          <li className="list-inline-item mt-2">
-            <i className="me-2">
-              <IconClock size={18} />
-            </i>
-            <span>{readingTime(content)} min read</span>
-          </li>
-        </ul>
-
-        <Link href={`/blog/${slug}`} className="d-block" title={title}>
-          <h3 className={`post-title mb-3 ${postColumns == 3 ? "h4" : ""}`}>
-            {title}
-          </h3>
-        </Link>
-        <p className={postColumns == 3 ? "small" : ""}>
-          {truncateString(description, postColumns == 3 ? 90 : 150)}
-        </p>
-      </div>
-      <div className="card-footer border-top-0 bg-transparent p-0">
-        <ul className="card-meta list-inline">
-          <li className="list-inline-item mt-2">
-            <ul className="card-meta-tag list-inline">
-              {tags.map((t, i) => (
-                <li key={i} className="list-inline-item small">
-                  <Link href={`/tags/${t.replace(/ /g, "-").toLowerCase()}`}>
-                    {t}
-                  </Link>
-                </li>
-              ))}
+        <div className="mx-4">
+          <ul className="card-meta text-center list-inline mb-3">
+            <li className="list-inline-item mt-2">
+              <i className="me-2">
+                <IconCalendarEvent size={18} />
+              </i>
+              <span>{formatDate(date)}</span>
+            </li>
+            <li className="list-inline-item mt-2">—</li>
+            <li className="list-inline-item mt-2">
+              <i className="me-2">
+                <IconClock size={18} />
+              </i>
+              <span>{readingTime(content)} min read</span>
+            </li>
+          </ul>
+          <Link href={`/blog/${slug}`} className="d-block" title={title}>
+            <h3 className={` text-left post-title mb-3 ${postColumns == 3 ? "h4" : ""}`}>
+              {title}
+            </h3>
+          </Link>
+          <p className={postColumns == 3 ? "small" : ""}>
+            {truncateString(description, postColumns == 3 ? 90 : 150)}
+          </p>
+          <div className="card-footer border-top-0 bg-transparent p-0">
+            <ul className="card-meta list-inline">
+              <li className="list-inline-item mt-2">
+                <ul className="card-meta-tag list-inline">
+                  {tags.map((t, i) => (
+                      <li key={i} className="list-inline-item small">
+                        <Link href={`/tags/${t.replace(/ /g, "-").toLowerCase()}`}>
+                          {t}
+                        </Link>
+                      </li>
+                  ))}
+                </ul>
+              </li>
             </ul>
-          </li>
-        </ul>
+          </div>
+        </div>
+
+
+
       </div>
+
     </article>
   );
 }
