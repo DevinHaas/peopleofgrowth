@@ -35,11 +35,12 @@
 .card {
   &.quote-card {
     padding: 0 30px;
-    margin: 5em 2em 0 2em;
+    margin: 1em 2em 0 2em;
     background-color: $white;
     @include mobile {
       padding: 0 10px;
     }
+
 
     &::before {
       content: "";
@@ -67,8 +68,11 @@
     .quote-text::before {
       background-color: $darken;
     }
+  }
+  .card.stats-card{
     background-color: $darken;
   }
+  background-color: $darken;
 
   .card-body {
     a:hover {
@@ -90,6 +94,10 @@
 
     .card-body {
       padding: 0;
+
+      @include mobile {
+        text-align: center;
+      }
 
       a:hover {
         color: inherit;
@@ -199,7 +207,13 @@
   .card-meta,
   .card-footer {
     zoom: 0.95;
+
+    @include mobile{
+      display: flex;
+      justify-content: center;
+    }
   }
+
 }
 
 // card-meta

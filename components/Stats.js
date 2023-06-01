@@ -43,12 +43,12 @@ export default function Stats() {
     }, []);
 
     return (
-        <div className="row">
-            <h2 className="section-title text-center mb-4">
+        <div className="mt-4 mt-lg-1 row gy-5 gx-4 g-xl-5">
+            <h2 className="section-title text-center mb-0 mb-lg-4">
                 <span className="p-0">Stats</span>
             </h2>
             <div className="col-12 col-md-4">
-                <div className="card quote-card h-100 mt-lg-5">
+                <div className="card quote-card py-2 mt-lg-5">
 
                     <div className="quote-text d-flex flex-column align-items-center">
                         <IconBook size={100}></IconBook>
@@ -58,7 +58,7 @@ export default function Stats() {
                 </div>
             </div>
             <div className="col-12 col-md-4">
-                <div className="card quote-card h-100 mt-lg-5">
+                <div className="card quote-card mt-lg-5 py-2 mt-lg-5">
                     <div className="quote-text d-flex flex-column align-items-center">
                         <IconBrain size={100}></IconBrain>
                         <h1 id="years" ref={yearRef}></h1>
@@ -67,7 +67,7 @@ export default function Stats() {
                 </div>
             </div>
             <div className="col-12 col-md-4">
-                <div className="card quote-card h-100 mt-lg-5">
+                <div className="card quote-card mt-lg-0 py-2 mt-lg-5">
                     <div className="quote-text d-flex flex-column align-items-center">
                         <IconClockHour5 size={100}></IconClockHour5>
                         <h1 id="days" ref={daysRef}></h1>
