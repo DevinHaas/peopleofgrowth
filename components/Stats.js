@@ -43,12 +43,12 @@ export default function Stats() {
     }, []);
 
     return (
-        <div className="mt-4 mt-lg-1 row gy-5 gx-4 g-xl-5">
+        <div className="mt-4 mb-4 mt-lg-1 row gy-5 gx-4 g-xl-5">
             <h2 className="section-title text-center mb-0 mb-lg-4">
                 <span className="p-0">Stats</span>
             </h2>
             <div className="mt-0 col-12 col-md-4">
-                <div className="card quote-card transparent  py-0 mt-lg-5">
+                <div className="card quote-card py-2 mt-lg-5">
                     <div className=" quote-text d-flex flex-column align-items-center">
                         <IconBook size={100}></IconBook>
                         <h1 id="pages" ref={pagesRef}></h1>
