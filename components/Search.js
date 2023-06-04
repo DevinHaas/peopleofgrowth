@@ -17,13 +17,6 @@ export default function Search() {
   const flatTags = allTags.flat();
   const uniqueTags = [...new Set(flatTags)];
 
-  // Get Post Categories
-  const allCategories = posts.map(
-    (category) => category.frontMatter.categories
-  );
-  const flatCategories = allCategories.flat();
-  const uniqueCategories = [...new Set(flatCategories)];
-
   const searchResults = posts.filter((searchResult) => {
     if (searchTerm === "") {
       return "";
@@ -40,19 +33,7 @@ export default function Search() {
     ) {
       return searchResult;
     } else if (
-      searchResult.frontMatter.author
-        .toLowerCase()
-        .includes(searchTerm.toLowerCase())
-    ) {
-      return searchResult;
-    } else if (
       searchResult.frontMatter.tags[0]
-        .toLowerCase()
-        .includes(searchTerm.toLowerCase())
-    ) {
-      return searchResult;
-    } else if (
-      searchResult.frontMatter.categories[0]
         .toLowerCase()
         .includes(searchTerm.toLowerCase())
     ) {
@@ -149,26 +130,6 @@ export default function Search() {
               >
                 <Link
                   href={`/tags/${item.replace(/ /g, "-").toLowerCase()}`}
-                  className="small"
-                >
-                  {item}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="mt-4 card-meta">
-          <p className="h4 mb-3">See posts by categories</p>
-          <ul className="card-meta-tag list-inline">
-            {uniqueCategories.map((item, i) => (
-              <li
-                key={i}
-                className="list-inline-item me-1 mb-2"
-                onClick={() => resetSearchInput(true)}
-              >
-                <Link
-                  href={`/categories/${item.replace(/ /g, "-").toLowerCase()}`}
                   className="small"
                 >
                   {item}

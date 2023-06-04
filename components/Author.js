@@ -5,8 +5,7 @@ export default function Author({
   author: {
     authorSlug,
     authorFrontMatter: { title, image },
-  },
-  postCount,
+  }
 }) {
   return (
     <>
@@ -24,12 +23,6 @@ export default function Author({
           blurDataURL={image}
         />
         <h4 className="text-dark mt-4 mb-1">{title}</h4>
-        <p className="mb-0">
-          <span className="fw-bold text-black">
-            {postCount[title] < 9 ? `0${postCount[title]}` : postCount[title]}
-          </span>{" "}
-          Published posts
-        </p>
       </Link>
     </>
   );

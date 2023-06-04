@@ -9,6 +9,7 @@
     opacity: 0.13;
   }
 }
+
 .dark .banner .wave {
   opacity: 0.3;
   color: #082d42 !important;
@@ -21,12 +22,96 @@
     margin-top: 0 !important;
   }
 }
+
 .image-grid-3 > img {
   margin-top: 10px !important;
   @include desktop {
     margin-top: 0 !important;
   }
 }
+
+
+// quote card style
+.card {
+  &.quote-card {
+    padding: 0 30px;
+    margin: 2em 2em 0 2em;
+    @include mobile {
+      padding: 0 10px;
+    }
+
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -30px;
+      left: -30px;
+      width: calc(100% + 60px);
+      height: 100%;
+      background-color: rgba($white, 0.5);
+      z-index: -1;
+      pointer-events: none;
+      border-radius: 4px;
+      transition: 0.3s;
+      @include mobile {
+        bottom: -10px;
+        left: -10px;
+        width: calc(100% + 20px);
+      }
+    }
+    .quote-image {
+      z-index: 1;
+      margin-bottom: 50px;
+      transition: 0.3s;
+      @include mobile {
+        margin-bottom: 30px;
+      }
+
+      img {
+        transition: 0.3s;
+        object-fit: contain;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: -30px;
+        width: calc(100% + 60px);
+        height: 100%;
+        background-color: $dark;
+        z-index: -1;
+        pointer-events: none;
+        border-radius: 4px;
+        transition: 0.3s;
+        @include mobile {
+          bottom: -10px;
+          left: -10px;
+          width: calc(100% + 20px);
+        }
+      }
+    }
+
+  }
+}
+
+.dark {
+  .card.quote-card {
+    background-color: $darken;
+    .quote-image::before {
+      background-color: $darken;
+    }
+  }
+
+  .card-body {
+    a:hover {
+      .post-title {
+        color: $color-primary !important;
+      }
+    }
+  }
+}
+
 
 // post card style
 .card {
@@ -35,15 +120,19 @@
     @include mobile {
       padding: 0 10px;
     }
+
     .card-body {
       padding: 0;
+
       a:hover {
         color: inherit;
+
         .post-title {
           color: $color-primary;
         }
       }
     }
+
     .post-image {
       z-index: 1;
       margin-bottom: 50px;
@@ -52,10 +141,12 @@
       @include mobile {
         margin-bottom: 30px;
       }
+
       img {
         transition: 0.3s;
-        object-fit: cover;
+        object-fit: contain;
       }
+
       &::before {
         content: "";
         position: absolute;
@@ -75,30 +166,36 @@
         }
       }
     }
+
     &:hover .post-image {
       filter: grayscale(0);
+
       img {
         transform: translateY(-5px);
         @include mobile {
           transform: translateY(0px);
         }
       }
+
       &::before {
         background-color: $white;
       }
     }
   }
 }
+
 .post-title {
   color: $dark;
   transition: 0.3s;
 }
+
 .dark {
   .card.post-card {
     .post-image::before {
       background-color: $darken;
     }
   }
+
   .card-body {
     a:hover {
       .post-title {
@@ -109,15 +206,17 @@
 }
 
 .card.post-card-col-4 {
-  padding: 0;
+  padding: 0 2rem 0 2rem;
   @include mobile {
-    padding: 0;
+    padding: 0 1rem 0 1rem;
   }
+
   .post-image {
     margin-bottom: 30px;
     @include mobile {
       margin-bottom: 20px;
     }
+
     &::before {
       bottom: -18px;
       left: -18px;
@@ -129,10 +228,12 @@
       }
     }
   }
+
   .card-meta,
   .card-footer {
     zoom: 0.95;
   }
+
 }
 
 // card-meta
@@ -140,13 +241,16 @@
   > li {
     line-height: 1;
     vertical-align: middle;
+
     i {
       vertical-align: text-bottom;
     }
   }
+
   a {
     color: $gray;
   }
+
   .list-inline-item:not(:last-child) {
     margin-right: 1rem;
     @include tablet {
@@ -157,18 +261,23 @@
   // card author style
   .card-meta-author {
     display: inline-block;
+
     span {
       transition: 0.2s;
     }
+
     &:hover {
       color: $gray;
+
       span {
         color: $color-primary !important;
       }
     }
+
     img {
       border-radius: 4px;
     }
+
     span {
       vertical-align: middle;
     }
@@ -179,6 +288,7 @@
     .list-inline-item:not(:last-child) {
       margin-right: 0.5rem;
     }
+
     a {
       background-color: rgba($color-primary, 0.1);
       color: $gray;
@@ -186,6 +296,7 @@
       border-radius: 2px;
       transition: 0.15s;
       text-transform: capitalize;
+
       &:hover {
         background-color: $color-primary;
         color: $white !important;
@@ -193,11 +304,13 @@
     }
   }
 }
+
 .dark {
   .card-meta-tag a {
     background-color: $darken;
     color: rgba($white, 0.8);
   }
+
   .card-meta a {
     color: #c2c2c2;
   }
@@ -210,17 +323,27 @@
     width: 100%;
   }
 }
+
+.post-details-image{
+  width: 25%;
+  @include mobile{
+    width: 50%;
+  }
+}
+
 .post-content-block {
   width: calc(83.33333334% - 174px);
   @include desktop {
     width: 100%;
   }
 }
+
 .single-post-similer,
 .disqus-comment,
 .single-post-author {
   margin-top: 100px;
 }
+
 .post-meta-tag {
   a {
     display: inline-block;
@@ -242,11 +365,13 @@
   &:not(:last-child) {
     margin-bottom: 40px;
   }
+
   h2 {
     margin-top: 40px;
     line-height: 1;
     margin-bottom: 20px;
     position: relative;
+
     i {
       position: absolute;
       font-size: 80px;
@@ -255,17 +380,21 @@
       left: -25px;
     }
   }
+
   h2:first-child {
     margin-top: 0;
   }
+
   .archive-post-item {
     font-size: 18px;
     @include tablet {
       font-size: 16px;
     }
+
     &:last-child {
       margin-bottom: 0;
     }
+
     span {
       margin: 0 20px;
       @include tablet {
@@ -273,6 +402,7 @@
       }
     }
   }
+
   a:hover {
     text-decoration: underline;
   }
@@ -285,20 +415,24 @@
     background-color: transparent;
     margin: 0 8px;
   }
+
   .form-control {
     margin-right: 12px;
     @include mobile {
       margin-right: 0;
     }
   }
+
   .input-group-text {
     padding: 0 1.5rem;
     height: 50px;
     @extend .rounded;
   }
+
   .form-control {
     &:focus {
       border-color: $color-primary;
+
       ~ .input-group-append {
         .input-group-text {
           border-color: $color-primary;
@@ -308,17 +442,22 @@
       }
     }
   }
+
   ::-webkit-input-placeholder {
     color: rgba($dark, 0.7);
   }
+
   :-ms-input-placeholder {
     color: rgba($dark, 0.7);
   }
+
   ::placeholder {
     color: rgba($dark, 0.7);
   }
+
   button.input-group-text {
     color: $dark;
+
     &:hover {
       border-color: $color-primary;
       background-color: $color-primary;
@@ -326,9 +465,11 @@
     }
   }
 }
+
 .dark .newsletter-block {
   .form-control {
     color: $white;
+
     &:focus {
       ~ .input-group-append {
         .input-group-text {
@@ -337,17 +478,22 @@
       }
     }
   }
+
   ::-webkit-input-placeholder {
     color: rgba($light, 0.7);
   }
+
   :-ms-input-placeholder {
     color: rgba($light, 0.7);
   }
+
   ::placeholder {
     color: rgba($light, 0.7);
   }
+
   button.input-group-text {
     color: $light;
+
     &:hover {
       color: $light;
     }

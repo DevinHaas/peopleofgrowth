@@ -56,7 +56,7 @@ export default function About({ authors, posts, about: { frontMatter } }) {
           </div>
 
           <div className="row justify-content-center">
-            <div className="col-lg-10 text-center">
+            <div className="col-lg-10">
               <div
                 className="content"
                 dangerouslySetInnerHTML={{
@@ -71,7 +71,7 @@ export default function About({ authors, posts, about: { frontMatter } }) {
               <div className="row justify-content-center">
                 <div className="col-lg-10 text-center">
                   <h2 className="section-title">
-                    <span>Our writers</span>
+                    <span>Me</span>
                   </h2>
 
                   <div className="row gx-4 gy-5 gx-md-5 justify-content-center text-center">

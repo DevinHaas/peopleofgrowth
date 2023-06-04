@@ -93,12 +93,14 @@ ol {
     background-size: 260px;
     background-repeat: no-repeat;
     background-position: bottom;
-    padding: 0 12px;
+    padding: 0 10px;
     @include tablet {
       background-size: 180px;
     }
   }
 }
+
+
 .dark {
   .section-title {
     span {
@@ -560,7 +562,7 @@ ol {
     color: $dark;
     p {
       margin-bottom: 0 !important;
-      font-size: $h4;
+      font-size: $h5;
       font-family: $font-primary;
       &::before {
         content: "“";

@@ -1,28 +1,31 @@
 ---
 title: "About"
-description: "This a dummy meta description of about page"
+description: "Self-improvement and growth are a big topic for me and I think it is everyone's duty to become the best version of himself. I try to read every day and with this blog, I want to summarize the books that I have read and say my thoughts about them."
 
 #intro
 intro:
-  title: "We are the Qurno, <br> Team of content writers and designers."
-  description: "If ever a place existed where you could just go crazy creatively, it is definitely your about page. It’s your chance to show your readers who you really are. Pictures, quotes, inspirational graphics, whatever it is that drives you.. Display it here in a way that only you can.
+  title: "Welcome to the Peopleofgrowth"
+  description: "<p> Welcome to Peopleofgrowth, your source for succinct and powerful insights on self-improvement! Ready to ignite your inner fire and embark on a transformative journey? Look no further.   </p>
   
+  <p>I understand the challenges of a busy lifestyle, where time is a precious commodity. That's why Peopleofgrowth exists—to provide you with concise summaries of self-improvement books that will inspire and encourage you to work on yourself.   </p>
   
-  I’ve included a plugin in the setup of this theme that will make adding columns to your pages and posts a piece of cake. Let creativity take control, and forget about the technical end of things, I’ve got your six."
+  <p>My summaries distill the essence of these impactful books into bite-sized posts, offering practical tips, strategies, and mindset shifts. Whether it's fostering healthy habits, nurturing positive relationships, boosting productivity, or cultivating resilience, I've got you covered.   </p>
+
+  <p>Join my community of growth enthusiasts and unlock your full potential. Let's embark on a journey of self-improvement together. Are you ready? Let's go!  </p>"
 
   # about images
   images:
-  - src: "/images/about/01.jpg"
-    width: "620px"
-    height: "346px"
+  - src: "/images/about/library2.jpg"
+    width: "500px"
+    height: "300px"
     grid_class: "col-lg-6"
 
-  - src: "/images/about/00.jpg"
+  - src: "/images/about/pages.jpg"
     width: "460px"
     height: "515px"
     grid_class: "col-lg-3 col-6"
 
-  - src: "/images/about/02.jpg"
+  - src: "/images/about/scroll.jpg"
     width: "460px"
     height: "444px"
     grid_class: "col-lg-3 col-6"

@@ -14,6 +14,9 @@ h2,
   @include desktop {
     font-size: $h2-md;
   }
+  @include mobile {
+    font-size: $h2-sm;
+  }
 }
 h3,
 .h3 {
