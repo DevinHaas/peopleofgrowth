@@ -6,6 +6,8 @@ import { getPosts } from "@/libs/getPosts";
 import { getSinglePage } from "@/libs/getSinglePage";
 import { marked } from "marked";
 import Image from "next/image";
+import Link from "next/link";
+import {IconHeartFilled} from "@tabler/icons-react";
 
 export default function About({ authors, posts, about: { frontMatter } }) {
   const allAuthor = posts.map((author) => author.frontMatter.author);
@@ -23,7 +25,7 @@ export default function About({ authors, posts, about: { frontMatter } }) {
 
       <section>
         <div className="container">
-          <div className="row justify-content-center">
+          <div className="row justify-content-center mt-2 mt-lg-5 ">
             <div className="col-lg-10 text-center">
               <h2
                 className="text-dark mb-0"
@@ -85,6 +87,31 @@ export default function About({ authors, posts, about: { frontMatter } }) {
               </div>
             </div>
           ) : null}
+          <div className="card quote-card mb-lg-5">
+            <div className="row">
+              <div
+                  className="text-center quote-text rounded text-center p-3">
+                <h2>
+                  Support my work
+                </h2>
+                <p>
+                  This blog is free but if you like my work you can support me here.
+                </p>
+                <Link
+                    href={`https://www.buymeacoffee.com/devinhaslev`}
+                    className="btn btn-primary mt-2"
+                    aria-label="Support my work"
+                    target="_blank"
+                >
+                  <i className="me-2">
+                    <IconHeartFilled size={16}/>
+                  </i>
+                  Support my work
+                </Link>
+              </div>
+
+            </div>
+          </div>
         </div>
       </section>
     </Layout>
