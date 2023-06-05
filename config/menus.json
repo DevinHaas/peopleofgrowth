@@ -10,11 +10,11 @@
     },
     {
       "name": "Blog",
-      "link": "/post"
+      "link": "/blog"
     },
     {
       "name": "Timeline",
-      "link": "/post/timeline"
+      "link": "/blog/timeline"
     },
     {
       "name": "Tags",
