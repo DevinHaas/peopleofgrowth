@@ -55,7 +55,7 @@ export default function Timeline({ posts, archive: { frontMatter } }) {
                           {formatDateByMonth(post.frontMatter.date)}
                         </span>
                         <span>•</span>
-                        <Link href={`/blog/${post.slug}`}>
+                        <Link href={`/post/${post.slug}`}>
                           {post.frontMatter.title}
                         </Link>
                       </div>

@@ -13,7 +13,7 @@ export default function Pagination({ currentPage, numberOfPages }) {
           <ul className="pagination justify-content-center border border-white rounded d-inline-flex">
             <li className={`page-item ${isFirst ? "disabled" : ""}`}>
               <Link
-                href={`/blog/page/${currentPage - 1}`}
+                href={`/post/page/${currentPage - 1}`}
                 className="page-link rounded w-auto px-4"
                 aria-label="Pagination Arrow"
               >
@@ -27,7 +27,7 @@ export default function Pagination({ currentPage, numberOfPages }) {
                 className={`page-item ${i == currentPage - 1 ? "active" : ""}`}
               >
                 <Link
-                  href={`/blog/page/${i + 1}`}
+                  href={`/post/page/${i + 1}`}
                   key={`page-${i}`}
                   className="page-link rounded"
                 >
@@ -38,7 +38,7 @@ export default function Pagination({ currentPage, numberOfPages }) {
 
             <li className={`page-item ${isLast ? "disabled" : ""}`}>
               <Link
-                href={`/blog/page/${currentPage + 1}`}
+                href={`/post/page/${currentPage + 1}`}
                 className="page-link rounded w-auto px-4"
                 aria-label="Pagination Arrow"
               >
