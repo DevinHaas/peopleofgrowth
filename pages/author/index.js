@@ -36,51 +36,6 @@ export default function Authors({ authors, posts }) {
           </div>
         </div>
       </section>
-
-      <section>
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <hr className="bg-primary" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section-sm pb-0">
-        <div className="container">
-          <div className="row">
-            <div className="col-12 text-center">
-              <h2 className="section-title">
-                <span>Recent posts</span>
-              </h2>
-            </div>
-          </div>
-          <div className="row gy-5 gx-4 g-xl-5">
-            {posts.slice(0, postColumns == 3 ? 3 : 4).map((post, i) => (
-              <div
-                key={i}
-                className={postColumns == 3 ? "col-lg-4 col-md-6" : "col-lg-6"}
-              >
-                <Post post={post} authors={authors} postColumns={postColumns} />
-              </div>
-            ))}
-
-            <div className="col-12 text-center">
-              <Link
-                href={`/blog`}
-                className="btn btn-primary mt-5"
-                aria-label="View all posts"
-              >
-                <i className="me-2">
-                  <IconNewSection size={16} />
-                </i>
-                View all posts
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
     </Layout>
   );
 }

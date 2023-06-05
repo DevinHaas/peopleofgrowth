@@ -8,6 +8,8 @@ import matter from "gray-matter";
 import { marked } from "marked";
 import Image from "next/image";
 import path from "path";
+import Link from "next/link";
+import {IconHeartFilled, IconNewSection} from "@tabler/icons-react";
 
 export default function AuthorSingle({
   content,
@@ -50,7 +52,19 @@ export default function AuthorSingle({
                       }}
                     ></div>
                   </div>
+                  <Link
+                      href={`https://www.buymeacoffee.com/devinhaslev`}
+                      className="btn btn-primary mt-2"
+                      aria-label="Support me"
+                      target="_blank"
+                  >
+                    <i className="me-2">
+                      <IconHeartFilled size={16}/>
+                    </i>
+                    Support me
+                  </Link>
                 </div>
+
               </div>
             </div>
           </div>
