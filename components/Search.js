@@ -92,7 +92,7 @@ export default function Search() {
                   className="search-result-card col-xl-2 col-lg-3 col-sm-4 col-12"
                   onClick={() => resetSearchInput(true)}
                 >
-                  <Link href={`/blog/${r.slug}`} title={r.frontMatter.title}>
+                  <Link href={`/post/${r.slug}`} title={r.frontMatter.title}>
                     <Image
                       className="rounded img-fluid"
                       src={r.frontMatter.image}

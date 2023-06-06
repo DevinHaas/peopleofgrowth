@@ -33,7 +33,7 @@ export default function Home({authors, posts, banner, quotes, books}) {
             ))}
             <div className="col-12 text-center">
               <Link
-                  href={`/blog`}
+                  href={`/post`}
                   className="btn btn-primary mt-2"
                   aria-label="View all posts"
               >

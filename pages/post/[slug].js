@@ -43,7 +43,7 @@ export default function PostPage({
 
   const {theme, setTheme, resolvedTheme} = useTheme();
 
-  let pageUrl = `${siteConfig.baseURL.replace(/\/$|$/, "/")}blog/${slug}`;
+  let pageUrl = `${siteConfig.baseURL.replace(/\/$|$/, "/")}post/${slug}`;
   return (
       <Layout metaTitle={title} metaDescription={description} ogImage={image}>
         <section className="section-sm pb-0">

@@ -21,7 +21,7 @@ export default function Post({
       }`}
     >
       <div className="card-body">
-        <Link href={`/blog/${slug}`} className="d-flex justify-content-center" title={title}>
+        <Link href={`/post/${slug}`} className="d-flex justify-content-center" title={title}>
           <div className="post-image position-relative w-75">
             <Image
               className="rounded img-fluid"
