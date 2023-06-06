@@ -23,9 +23,9 @@ export default function Stats() {
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             if (entries[0].isIntersecting) {
-                animateValue(pagesRef.current, 0, 1718, 2000);
-                animateValue(yearRef.current, 0, 2320, 1500);
-                animateValue(daysRef.current, 0, 77, 2300);
+                animateValue(pagesRef.current, 0, 1976, 2000);
+                animateValue(yearRef.current, 0, 2400, 1500);
+                animateValue(daysRef.current, 0, 96, 2300);
                 observer.unobserve(pagesRef.current);
             }
         });
