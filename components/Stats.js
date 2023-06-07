@@ -1,7 +1,7 @@
 import {IconBook, IconBrain, IconClockHour5} from "@tabler/icons-react";
 import {useEffect, useRef} from "react";
 
-export default function Stats() {
+export default function Stats({numberOfPosts, numberOfPagesRead, daysSpendReading}) {
     function animateValue(obj, start, end, duration) {
         let startTimestamp = null;
         const step = (timestamp) => {
@@ -15,24 +15,28 @@ export default function Stats() {
         window.requestAnimationFrame(step);
     }
 
+
     const pagesRef = useRef(null);
     const yearRef = useRef(null);
     const daysRef = useRef(null);
 
 
+
+
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             if (entries[0].isIntersecting) {
-                animateValue(pagesRef.current, 0, 1976, 2000);
-                animateValue(yearRef.current, 0, 2400, 1500);
-                animateValue(daysRef.current, 0, 96, 2300);
+                let yearsOfKnowledgeLearned = numberOfPosts * 80;
+
+                animateValue(pagesRef.current, 0, numberOfPagesRead, 2000);
+                animateValue(yearRef.current, 0, yearsOfKnowledgeLearned, 1500);
+                animateValue(daysRef.current, 0, daysSpendReading, 2300);
                 observer.unobserve(pagesRef.current);
             }
         });
 
         if (pagesRef.current) {
             observer.observe(pagesRef.current);
-
         }
 
         return () => {

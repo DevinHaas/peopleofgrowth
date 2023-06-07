@@ -11,7 +11,32 @@ import Quote from "@/components/Quote";
 import ComingSoon from "@/components/ComingSoon";
 import Stats from "@/components/Stats";
 
-export default function Home({authors, posts, banner, quotes, books}) {
+import matter from "gray-matter";
+import {marked} from "marked";
+
+export default function Home({authors, posts, banner, quotes, comingSoonBook}) {
+
+
+  function calculateNumberOfPagesRead() {
+    let totalPagesRead = 0;
+
+    posts.forEach((post) => {
+      totalPagesRead += post.frontMatter.pages;
+    });
+
+    return totalPagesRead;
+  }
+
+  function calculateDaysSpendReading(){
+    let timeSpendReading = 0;
+
+    posts.forEach((post) => {
+      timeSpendReading += post.frontMatter.timeToRead;
+    });
+
+    return timeSpendReading;
+  }
+
   const postColumns = siteConfig.postColumns;
   return (
       <Layout>
@@ -46,8 +71,8 @@ export default function Home({authors, posts, banner, quotes, books}) {
           </div>
           <Quote quote={quotes}>
           </Quote>
-          <ComingSoon book={books}></ComingSoon>
-          <Stats></Stats>
+          <ComingSoon book={comingSoonBook}></ComingSoon>
+          <Stats numberOfPosts={posts.length} numberOfPagesRead={calculateNumberOfPagesRead()} daysSpendReading={calculateDaysSpendReading()}></Stats>
         </div>
       </Layout>
   );
@@ -57,10 +82,10 @@ export async function getStaticProps() {
   return {
     props: {
       authors: getAuthors(),
-      posts: getPosts().slice(0, 6),
+      posts: getPosts(),
       banner: getSinglePage("content/_index.md"),
       quotes: getSinglePage("content/quote.md"),
-      books: getSinglePage("content/coming-soon.md"),
+      comingSoonBook: getSinglePage("content/coming-soon.md"),
     },
   };
 }
