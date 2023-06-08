@@ -18,7 +18,7 @@ export default function PostHorizontal({
       <article className="card post-card h-100 border-0 bg-transparent">
         <div className="row">
           <div className="col-lg-6">
-            <Link href={`/blog/${slug}`} className="d-block" title={title}>
+            <Link href={`/post/${slug}`} className="d-block" title={title}>
               <div className="post-image position-relative">
                 <Image
                   className="rounded img-fluid"
@@ -51,7 +51,7 @@ export default function PostHorizontal({
                   </li>
                 </ul>
 
-                <Link href={`/blog/${slug}`} className="d-block" title={title}>
+                <Link href={`/post/${slug}`} className="d-block" title={title}>
                   <h3 className="post-title mb-3">{title}</h3>
                 </Link>
                 <p>{truncateString(description, 150)}</p>
