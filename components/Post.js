@@ -51,7 +51,7 @@ export default function Post({
               <span>{readingTime(content)} min read</span>
             </li>
           </ul>
-          <Link href={`/blog/${slug}`} className="d-block" title={title}>
+          <Link href={`/post/${slug}`} className="d-block" title={title}>
             <h3 className={` text-left post-title mb-3 ${postColumns == 3 ? "h4" : ""}`}>
               {title}
             </h3>
