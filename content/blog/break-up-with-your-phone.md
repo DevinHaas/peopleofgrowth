@@ -16,7 +16,7 @@ tags: ["Productivity", "Addiction"]
 
 ## 🚀 The Book in 3 Sentences
 
-1. The phone is a big opportunity bad a dangerous one as well
+1. The phone is a big opportunity, but a dangerous one as well
 2. It is important to be more mindful of your phone
 3. Implement digital detoxes in your daily life
 
