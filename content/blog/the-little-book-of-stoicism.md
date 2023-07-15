@@ -1,7 +1,7 @@
 ---
 title: "The little book of stoicism"
 description: "A book about the principles and practices of stoicism."
-image: "/images/blog/TheLittleBookOfStoicism.jpg"
+image: "/images/blog/theLittleBookOfStoicism/TheLittleBookOfStoicism.jpg"
 date: "2023-06-22T21:22:47+01:00"
 author: ["Jonas Salzgeber"]
 publisher: "Jonas Salzgeber"
@@ -71,7 +71,7 @@ The core principles of the teaching of Stoic Philosophy can be covered with the 
 
 The Triangle shows the principles “Take Responsibilities”, “Live with Areté” and “Focus on what you control”.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e9885eb6-9a44-40f2-9744-af1dc46d4fc3/Untitled.png)
+<img src="/images/blog/theLittleBookOfStoicism/stoicHappinessTriangle.jpg" alt="Stoic Happiness Triangle" title="Stoic Happiness Triangle" width="50%" height="auto" />
 
 Let’s discuss the meaning of all the other principles.
 
@@ -99,7 +99,7 @@ In this chapter, Jonas Salzgeber discusses the core principles of practicing Sto
 
 The most important principle among them is to **Brace Yourself**. This means that all the negative and challenging aspects of your life should be viewed as opportunities for personal growth and inner strength. The more difficulties you face, the stronger you will become.
 
-To achieve this, it is crucial to be **mindful**. A Stoic is capable of pausing between a stimulus and their response to that stimulus. We need to be aware of our lives in order to make positive changes. Additionally, living in the present moment is essential, as it is the only aspect of life that we can control. If you want to learn more about mindfulness and living in the present, I recommend checking out the blog from the book *The Power of Now* (https://www.peopleofgrowth.com/post/the-power-of-now).
+To achieve this, it is crucial to be **mindful**. A Stoic is capable of pausing between a stimulus and their response to that stimulus. We need to be aware of our lives in order to make positive changes. Additionally, living in the present moment is essential, as it is the only aspect of life that we can control. If you want to learn more about mindfulness and living in the present, I recommend checking out the blog from the book  [*The Power of Now*](https://www.peopleofgrowth.com/post/the-power-of-now).
 
 Also, to practice Stoicism you need ******************************self-discipline.****************************** To improve in any area of life needs effort and with that self-discipline to keep trying and keep coming back.
 
@@ -123,5 +123,5 @@ Please note that this is not an exhaustive list of practices from the book, but 
 
 I wish you the best on your stoic journey and I look forward to seeing you reading my next blog post.
 
-With regards
+With regards  
 Devin Hasler
