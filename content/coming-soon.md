@@ -1,6 +1,6 @@
 ---
 title: "Coming Soon"
-description: "a book by Jonas Salzgeber in which he points the way to anyone seeking a calm and wise life in a chaotic world."
-image: "/images/blog/TheLittleBookofStoicism.jpg"
-alt: "Image of the Book The Little Book of Stoicism"
+description: "a book by Lewis Howes in which he teaches you how to overcome your fears and live a life of greatness."
+image: "/images/blog/theGreatnessMindset.jpg"
+alt: "Image of the Book The Greatness Mindset"
 ---
