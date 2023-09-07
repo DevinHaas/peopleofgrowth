@@ -1,14 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import {
-  IconBell,
-  IconCalendarEvent,
-  IconClock,
-  IconNewSection
-} from "@tabler/icons-react";
-import {formatDate} from "@/utils/formatDate";
-import {readingTime} from "@/utils/readingTime";
-import {truncateString} from "@/utils/truncateString";
+import {IconBell} from "@tabler/icons-react";
 
 export default function ComingSoon({book: {frontMatter}}) {
   return (
