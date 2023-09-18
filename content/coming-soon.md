@@ -1,6 +1,6 @@
 ---
 title: "Coming Soon"
-description: "a book by Viktor E. Frankl about finding a meaning and purpose in life."
-image: "/images/blog/mansSearchForMeaning/mansSearchForMeaning.jpg"
-alt: "Image of the Book The Greatness Mindset"
+description: "a book by Mary Beard about history of the roman empire"
+image: "/images/blog/spqr/spqr.jpg"
+alt: "Image of the Book SPQR: A History of Ancient Rome"
 ---
