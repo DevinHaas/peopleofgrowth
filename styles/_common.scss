@@ -1,3 +1,7 @@
+@use './variable' as *;
+@use './mixins' as *;
+@use 'sass:color';
+
 html {
   scroll-behavior: auto;
 }
@@ -22,7 +26,7 @@ ol {
 }
 ::selection {
   color: $white;
-  background-color: darken($color-primary, 5);
+  background-color: color.adjust($color-primary, $lightness: -5%);
   text-shadow: none;
 }
 :focus {
@@ -542,7 +546,7 @@ ol {
     }
   }
   tbody {
-    background: lighten($light, 5);
+    background: color.adjust($light, $lightness: 5%);
     margin-bottom: 0;
   }
 
@@ -566,7 +570,7 @@ ol {
       font-family: $font-primary;
       &::before {
         content: "“";
-        color: darken($color-primary, 2);
+        color: color.adjust($color-primary, $lightness: -2%);
         font-family: $font-primary;
         font-size: 100px;
         line-height: 0;
@@ -606,7 +610,7 @@ ol {
 .dark .content {
   blockquote {
     color: $white;
-    background-color: lighten($body-background-dark, 1);
+    background-color: color.adjust($body-background-dark, $lightness: 1%);
   }
   figure figcaption {
     color: $white;
@@ -637,7 +641,7 @@ ol {
   }
 }
 .dark .disqus-comment .block {
-  background-color: lighten($body-background-dark, 1);
+  background-color: color.adjust($body-background-dark, $lightness: 1%);
 }
 // end of content style
 
@@ -686,10 +690,10 @@ ol {
   }
 }
 .dark .pagination {
-  border-color: lighten($body-background-dark, 3) !important;
+  border-color: color.adjust($body-background-dark, $lightness: 3%) !important;
   .page-link {
     color: $light;
-    background-color: lighten($body-background-dark, 1);
+    background-color: color.adjust($body-background-dark, $lightness: 1%);
     &.active,
     &:focus,
     &:hover {
@@ -806,7 +810,7 @@ button.input-group-text {
   color: $color-primary !important;
 }
 a.text-primary:hover {
-  color: darken($color-primary, 10) !important;
+  color: color.adjust($color-primary, $lightness: -10%) !important;
 }
 .bg-primary {
   background-color: $color-primary !important;

@@ -1,3 +1,6 @@
+@use './variable' as *;
+@use './mixins' as *;
+
 // banner style
 .banner {
   .wave {
@@ -351,7 +354,7 @@
     color: $gray;
     padding: 6px 13px;
     font-size: 15px;
-    @extend .rounded;
+    border-radius: 4px !important;
 
     &:hover {
       background-color: transparent;
@@ -426,7 +429,7 @@
   .input-group-text {
     padding: 0 1.5rem;
     height: 50px;
-    @extend .rounded;
+    border-radius: 4px !important;
   }
 
   .form-control {

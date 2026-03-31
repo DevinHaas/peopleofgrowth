@@ -1,10 +1,12 @@
+@use './variable' as *;
+
 // footer style
 footer {
   background: $white;
   background: linear-gradient(180deg, $body-background 0%, $white 55%);
   .icon-box a {
     color: rgba($dark, 0.7);
-    @extend .rounded;
+    border-radius: 4px !important;
     &:hover {
       color: $white;
       background-color: $color-primary;

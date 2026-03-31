@@ -4,6 +4,14 @@ const nextConfig = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  sassOptions: {
+    silenceDeprecations: [
+      "color-functions",
+      "global-builtin",
+      "import",
+      "if-function",
+    ],
+  },
 };
 
 module.exports = nextConfig;

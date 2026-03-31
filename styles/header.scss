@@ -1,3 +1,7 @@
+@use './variable' as *;
+@use './mixins' as *;
+@use 'sass:color';
+
 // start header style
 .header-height-fix {
   height: 116px;
@@ -224,6 +228,6 @@
     background-color: $darken;
   }
   .search-block {
-    background-color: darken($darken, 2);
+    background-color: color.adjust($darken, $lightness: -2%);
   }
 }
