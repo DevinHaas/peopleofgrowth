@@ -1,6 +1,6 @@
 ---
 title: "Man's search for meaning"
-description: "a book about finding a meaning and purpose in life."
+description: "A book about finding a meaning and purpose in life."
 image: "/images/blog/mansSearchForMeaning/mansSearchForMeaning.jpg"
 date: "2023-09-18T21:22:47+01:00"
 author: [ "Viktor E. Frankl" ]

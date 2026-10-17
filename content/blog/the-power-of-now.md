@@ -1,6 +1,6 @@
 ---
 title: "The power of Now"
-description: "a book by Eckhart Tolle in which he explains the importance of living in the now."
+description: "A book by Eckhart Tolle in which he explains the importance of living in the now."
 image: "/images/blog/thePowerOfNow/thepowerofnow.jpeg"
 date: "2023-06-04T21:18:32+01:00"
 author: ["Eckhart Tolle"]

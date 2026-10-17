@@ -49,6 +49,15 @@ ol {
     left: 6px;
   }
 }
+strong, b {
+  font-weight: bold;
+  color: $color-primary; /* Adjust the color as needed */
+}
+
+.dark strong, .dark b {
+  color: $light;
+}
+
 .dark {
   body {
     color: $light;
