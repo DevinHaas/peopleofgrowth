@@ -10,6 +10,7 @@ import Link from "next/link";
 import Quote from "@/components/Quote";
 import ComingSoon from "@/components/ComingSoon";
 import Stats from "@/components/Stats";
+import HumanWritten from "@/components/HumanWritten";
 
 import matter from "gray-matter";
 import {marked} from "marked";
@@ -73,6 +74,7 @@ export default function Home({authors, posts, banner, quotes, comingSoonBook}) {
           </Quote>
           <ComingSoon book={comingSoonBook}></ComingSoon>
           <Stats numberOfPosts={posts.length} numberOfPagesRead={calculateNumberOfPagesRead()} daysSpendReading={calculateDaysSpendReading()}></Stats>
+          <HumanWritten/>
         </div>
       </Layout>
   );

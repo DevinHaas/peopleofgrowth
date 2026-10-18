@@ -1,0 +1,27 @@
+{
+  "My texts": {
+    "paragraphs": 243,
+    "mean": 0.252,
+    "median": 0.141
+  },
+  "Claude Opus 5.5": {
+    "paragraphs": 295,
+    "mean": 0.397,
+    "median": 0.359
+  },
+  "Claude Sonnet 5.5": {
+    "paragraphs": 233,
+    "mean": 0.409,
+    "median": 0.367
+  },
+  "GPT-6.1 Sol": {
+    "paragraphs": 382,
+    "mean": 0.599,
+    "median": 0.626
+  },
+  "GPT-5.6 Terra": {
+    "paragraphs": 105,
+    "mean": 0.635,
+    "median": 0.691
+  }
+}
